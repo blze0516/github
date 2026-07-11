@@ -722,10 +722,9 @@ Day 5 관련 커밋이 두 개로 나뉘었는지 확인합니다.
 ### Mermaid 그림으로 이해하기
 
 ```mermaid
-gitGraph
-    commit id: "이전 학습 기록"
-    commit id: "Day 5 lesson"
-    commit id: "Day 5 review" 
+flowchart LR
+    A[이전 학습 기록] --> B[Day 5 lesson]
+    B --> C[Day 5 review]
 ```
 
 ### 자주 하는 실수
